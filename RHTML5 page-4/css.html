@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Sample HTML Page with standards</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="Rhtml5page.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+  <div class="content">
+<!--creating a header section for logo -->
+ 	<header>
+		<img src="https://theunwiredpeople.com/wp-content/uploads/sites/5/2011/05/FreeTutorialsLogo1.jpg" alt="Tutorials" style="width: 10%; height: 10%; ">
+	</header>
+<!--creating a navigation bar to switch between pages -->
+	<nav class="navbar navbar-default">
+	  	<div class="container-fluid">
+	   		<ul class="nav navbar-nav">
+	      		<li><a href="Rhtml5page.html">Home</a></li>
+	      		<li><a href="html.html">HTML</a></li>
+	     		  <li><a href="css.html">CSS</a></li>
+	    	</ul>
+	    	<ul class="nav navbar-nav navbar-right">
+     			<li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+      			<li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+    		</ul>
+	  	</div>
+	</nav>
+<!--creating a article witha section inside it -->
+	<article>
+  		<h1 style="text-align: center; color: green;">Cascading Style Sheets</h1>
+      <hr>
+  		<section>
+  			<h2><U>CSS Introduction</U></h2>
+        <h3>What is CSS?</h3>
+  			<ul>
+       <li><b>CSS</b> stands for <b>C</b>ascading <b>S</b>tyle <b>S</b>heets</li>
+       <li>CSS describes <b>how HTML elements are to be dislayed on screen, paper, or in other media</b></li>  
+       <li>CSS <b>saves a lot of work.</b> It can control the layout of multiple web pages all at once</li>
+       <li>External stylesheets are stored in  <b>CSS files</b></li> 
+        </ul>
+   		</section>
+      <hr>
+   		<section>
+   			<h2><u>CSS Syntax</u></h2>
+   			<p>A CSS rule-set consists of a selector and a declaration block</p>
+        <ul>
+          <li>The selector points to the HTML element you want to style.</li>
+          <li>The declaration block contains one or more declarations separated by semicolons.</li>
+          <li>Each declaration includes a CSS property name and a value, separated by a colon.</li>
+          <li>A CSS declaration always ends with a semicolon, and declaration blocks are surrounded by curly braces.</li>
+        </ul>
+   		</section>
+      <hr>
+   		<section>
+   			<h2><u>CSS Layout - float</u></h2>
+   			<aside>
+        <p>The CSS <mark><span style="color:red;">float</span></mark> property specifies how an element should float.</p>  
+        </aside>
+        <h3>THe float Property</h3>
+        <p>The <mark><span style="color:red;">float</span></mark> property is used for positioning and layout on web pages.</p>
+        <p>The <mark><span style="color:red;">float</span></mark> property can have one of the following values:</p>
+        <ul>
+          <li>left - The element floats to the left of its container
+          </li>
+          <li>right- The element floats to the right of its container
+          </li>
+          <li>none - The element does not float (will be displayed just where it occurs in the text). This is default
+          </li>
+          <li>inherit - The element inherits the float value of its parent
+          </li>
+        </ul>
+   		</section>
+      <br>
+  <!--creating aside -->
+      <aside>
+        <p>In its simplest use, the <mark><span style="color:red;">float</span></mark> property can be used to wrap text around images.</p>
+      </aside>
+  	</article>
+<!--footer section to navigate to previous and next page along with c0pyright information -->
+  	<footer>
+		<div class="container">                
+		  	<ul class="pager">
+		    	<li class="previous"><a href="html.html">Previous</a></li>
+		    	<li class="next"><a href="#">Next</a></li>
+		  	</ul>
+		  	<br>
+		  	<br>
+		  	<p style="text-align: center;">&copy 2010 Free Tutorials</p>
+		</div>
+	</footer>
+</div>
+ </body>
+ </html>

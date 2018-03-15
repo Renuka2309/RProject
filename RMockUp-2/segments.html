@@ -1,0 +1,84 @@
+<html>
+<form>
+	<div class="tab">
+	  <button class="tablinks" onclick="openLink(event, 'Mastery')"><b>Mastery</b></button>
+	  <button class="tablinks" onclick="openLink(event, 'Segments')"><b>Segments</b></button>
+	  <button class="tablinks" onclick="openLink(event, 'Questions')"><b>Questions</b></button>
+	</div>
+		<div class="w3-container">
+		<div id="Segments" class="tabcontent">
+			<h2 style="color: blue;">Segment</h2>	
+			<div class="segment">
+				<p><b>Segment position</b></p>
+				<input type="text" name="position">
+				<a href="#" class="set">set</a>
+				<br>
+				<p><b>Selection Count</b></p>
+				<input type="text" name="count" placeholder="Please enter selection count">
+				<br>
+				<br>
+				<br>
+				<a href="#" class="question">Add Questions</a>
+			</div>
+				<br>
+			<!--<div style="float:right">-->
+				<p><b>Question Score</b></p>
+				<input type="text" name="score" placeholder="Enter Question Score">
+				<br>
+				<p><b>Question order</b></p>
+				<select>
+					<option value="select">Please select</option>
+					<option value="linear">Linear</option>
+					<option value="shuffle">Shuffle</option>
+				</select>
+				<br>
+				<br>
+				<br>
+				<input type="submit" name="Submit" class="submit">
+			<!--</div>-->
+		</div>
+	</div>
+	</form>
+	</html>
+
+	<!--<div class="w3-container">-->
+			<h2 style="color: blue;">Segment</h2>	
+			<div class="segment">
+			<!--<div style="width:100%">-->
+				<table >
+					<tr>
+						<td>Segment position
+							<br>
+							<input type="text" name="position">
+							<a href="#" class="set">set</a>
+						</td>
+						
+						<td>
+							<!--<div class="right">-->
+							<b>Question Score</b>
+							<br>
+							<input type="text" name="score" placeholder="Enter Question Score">
+						<!--</div>-->
+						</td>
+						<td>
+							<a href="#" class="question">Add Questions</a>
+						</td>
+					</tr>
+					<tr>
+						<td><b>Selection Count</b>
+							<br>
+							<input type="text" name="count" placeholder="Please enter selection count">
+						</td>
+						<td>
+							<p><b>Question order</b></p>
+							<select>
+								<option value="select">Please select</option>
+								<option value="linear">Linear</option>
+								<option value="shuffle">Shuffle</option>
+							</select>
+						</td>
+					</tr>
+				</table>
+			</div>
+		
+	<!--</div>-->

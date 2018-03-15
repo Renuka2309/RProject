@@ -1,0 +1,76 @@
+body, html {
+  /*width: 100%;
+  height: 100%;
+  margin: 30;*/
+  background-color: white;
+  border: 0px solid black;
+  border-collapse: collapse;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+background-color:#4CAF50;
+}
+.container {
+  width: 100%;
+  height: 100%;
+}
+
+.firstcol {
+    width: 34%;
+    height: 600px;
+    float: left;    
+    border-collapse: collapse;
+}
+
+.secondcol {
+    width: 30%;
+    height: 100%;
+    float: left;
+    border-collapse: collapse;
+}
+
+.thirdcol {
+  width: 30%;
+  /*height: 100%;
+  position: relative;*/
+  float: left;
+  /*border-collapse: collapse;*/
+}
+
+.fourthcol{
+  width: 33%;
+  /*height: 100%;
+  position: relative;*/
+  float: left;
+  border-collapse: collapse;
+}
+.toppane {
+  width: 100%;
+  height: 100px;
+  border-collapse: collapse;
+  background-color: #4da6ff;
+}
